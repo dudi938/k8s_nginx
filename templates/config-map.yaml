@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx
+  namespace: green-road
+data:
+  main_message: 'Wellcome to Greenroad'
+  app_version: '1.0.1'
