@@ -9,5 +9,6 @@ data:
       <html>
       <h1>Hello from Greenroad exam</h1>
       </br>
-      <h2>THe exam source available here: <span>https://github.com/dudi938/k8s_nginx</span></h2>
+      <h2>The exam source available <a href="https://github.com/dudi938/k8s_nginx">here</a>:</h2>
       </html>
+      <a href="url">link text</a>
