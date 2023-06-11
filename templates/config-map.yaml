@@ -6,9 +6,54 @@ data:
   main_message: 'Wellcome to Greenroad'
   app_version: '1.0.1'
   index_html: |
-      <html>
-      <h1>Hello from Greenroad exam</h1>
-      </br>
-      <h2>The exam source available <a href="https://github.com/dudi938/k8s_nginx">here</a>:</h2>
-      </html>
-      <a href="url">link text</a>
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>Greenroad exam</title>
+          <style>
+            body {
+              background-color: #f2f2f2;
+              font-family: Arial, sans-serif;
+              margin: 0;
+              padding: 0;
+            }
+            
+            .container {
+              text-align: center;
+              margin-top: 150px;
+            }
+            
+            h1 {
+              font-size: 36px;
+              color: #333333;
+            }
+            
+            p {
+              font-size: 18px;
+              color: #666666;
+              margin-top: 20px;
+            }
+            
+            .button {
+              display: inline-block;
+              padding: 10px 20px;
+              background-color: #4CAF50;
+              color: #ffffff;
+              text-decoration: none;
+              font-size: 16px;
+              border-radius: 4px;
+              transition: background-color 0.3s;
+            }
+            
+            .button:hover {
+              background-color: #45a049;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="container">
+            <h1>Welcome Greenroad exam</h1>
+            <p>The code is available <a href="https://github.com/dudi938/k8s_nginx">here</a>:</p>
+          </div>
+        </body>
+        </html>
