@@ -5,3 +5,10 @@ metadata:
 data:
   main_message: 'Wellcome to Greenroad'
   app_version: '1.0.1'
+  index.html: |
+      <html>
+      <h1>Welcome</h1>
+      </br>
+      </html
+      <h1>Whatever text you want...bluh bluh</h1>
+      </html>
