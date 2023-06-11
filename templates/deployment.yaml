@@ -20,7 +20,7 @@ spec:
         ports:
         - containerPort: 80
         volumeMounts:
-          - name: html_file
+          - name: nginx
             mountPath: /usr/share/nginx/html
         env:
         - name: APP_VERSION
