@@ -52,7 +52,7 @@ data:
         </head>
         <body>
           <div class="container">
-            <h1>Welcome Greenroad exam</h1>
+            <h1>Welcome to Greenroad exam</h1>
             <p>The code is available <a href="https://github.com/dudi938/k8s_nginx">here</a>:</p>
           </div>
         </body>
