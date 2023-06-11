@@ -7,7 +7,7 @@ data:
   app_version: '1.0.1'
   index_html: |
       <html>
-      <h1>Welcome</h1>
+      <h1>Hello from Greenroad exam</h1>
       </br>
-      <h1>Whatever text you want...bluh bluh</h1>
+      <h2>THe exam source available here: <span>https://github.com/dudi938/k8s_nginx</span></h2>
       </html>
