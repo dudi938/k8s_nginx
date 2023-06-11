@@ -19,6 +19,9 @@ spec:
         image: nginx:1.14.2
         ports:
         - containerPort: 80
+        volumeMounts:
+          - name html_file
+            mounthPath: /usr/share/nginx/html
         env:
         - name: APP_VERSION
           valueFrom: 
@@ -30,3 +33,5 @@ spec:
             configMapKeyRef:
               name: nginx
               key: main_message
+      volumes:
+        - name: nginx
